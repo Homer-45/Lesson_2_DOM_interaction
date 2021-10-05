@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+        <title>Data Binding problem</title>      
+    </head>
+    <body>
+        <section class="Events">
+            <!--Output your name-->
+            <h2>MY NAME: {{ Name }}</h2>
+            <!--Output your Age-->
+            <p>AGE: {{ Age }} </p>
+            <!--Output your Age + 5-->
+            <p>My AGE in 5 years: {{ Five() }}</p>
+            <!--Output a random number (0 to 1)-->
+            <p>Favorite Number: {{ Fnumber() }}</p>
+            <div class ="Hello">
+                <!--Display some image-->
+                <img :src="url" />
+            </div>
+            <!--Prepopulate the input field with your name via the-->
+            <input type="text" :value="Name"/>
+        </section>
+        <script src="assets/js/app.js" defer></script>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;  
+    box-sizing: border-box;
+    text-align: center;
+
+}
+header{
+    width: 450px;
+    color: white;
+    text-align: center;
+    background-color: maroon;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.assignment{
+    width: 450px;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+button{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    padding: 6px;
+    color: maroon;
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 2rem;   
+    cursor: pointer;
+    border-color:black ;
+
+
+} 
+.assignment p{
+    height: 200px;
+    text-align: center;
+    border-radius: 7px;   
+    padding: 20px;
+    margin: auto;
+    font-size: 2rem;
+}
